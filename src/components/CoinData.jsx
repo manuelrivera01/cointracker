@@ -15,7 +15,7 @@ const CoinData = ({ data }) => {
               <span className="text-muted coin-data-category">
                 Total Supply
               </span>
-              <span>{data.total_supply.toLocaleString()}</span>
+              <span>{data.total_supply}</span>
             </div>
           </div>
 
@@ -36,7 +36,7 @@ const CoinData = ({ data }) => {
               <span className="text-muted coin-data-category">
                 Circulating Supply
               </span>
-              <span>{data.circulating_supply.toLocaleString()}</span>
+              <span>{data.circulating_supply}</span>
             </div>
             <hr />
             <div className="d-flex flex-column">
