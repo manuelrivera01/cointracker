@@ -12,7 +12,7 @@ export const WatchListContextProvider = (props) => {
       "solana",
       "terra-luna",
       "avalanche-2",
-      "shiba-inu"
+      "matic-network"
     ]
   );
 

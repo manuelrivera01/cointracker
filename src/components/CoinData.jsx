@@ -15,7 +15,7 @@ const CoinData = ({ data }) => {
               <span className="text-muted coin-data-category">
                 Total Supply
               </span>
-              <span>{data.total_supply}</span>
+              <span>{data.total_supply.toLocaleString()}</span>
             </div>
           </div>
 
@@ -27,7 +27,7 @@ const CoinData = ({ data }) => {
             <hr />
             <div className="d-flex flex-column">
               <span className="text-muted coin-data-category">high 24h</span>
-              <span>${data.high_24h.toLocaleString()}</span>
+              <span>${data.high_24h}</span>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ const CoinData = ({ data }) => {
             <hr />
             <div className="d-flex flex-column">
               <span className="text-muted coin-data-category">low 24h</span>
-              <span>${data.low_24h.toLocaleString()}</span>
+              <span>${data.low_24h}</span>
             </div>
           </div>
         </div>
